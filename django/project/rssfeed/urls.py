@@ -4,6 +4,6 @@ from . import forms
 
 
 urlpatterns=[
-	url(r'^search-form',views.index,name = 'index'),
+	url(r'^search',views.index,name = 'index'),
 	url(r'^results',views.results,name = 'results'),
 ]

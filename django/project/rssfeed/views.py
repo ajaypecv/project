@@ -8,7 +8,7 @@ import re
 
 
 def index(request):
-    return render( request, 'git1/index.html')
+    return render( request, 'rssfeed/index.html')
 
 #View for the Redirecting page -- This is where I want to catch the text box input
 def results(request):

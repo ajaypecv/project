@@ -1,4 +1,4 @@
-"""git URL Configuration
+"""project URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.0/topics/http/urls/
@@ -20,5 +20,5 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     url('admin/', admin.site.urls),
-    url(r'^index/',include('git1.urls')),
+    url(r'^index/',include('rssfeed.urls')),
 ]
